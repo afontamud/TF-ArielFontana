@@ -1,0 +1,97 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    
+}
+
+p{
+    margin: 30px 70px;
+}
+
+
+h1{
+    text-align: center;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+nav a:hover{
+    color: rgb(255, 0, 0);  
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: black;
+    justify-self: center;
+    
+}
+
+
+
+
+.container_footer{
+  
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    text-align: left;
+}
+
+.box_footer h3{
+    color: rgb(255, 0, 0);
+    margin-bottom: 30px;
+
+
+}
+
+.redes{
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+}
+
+.box_copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 40px;
+   
+}
+
+
+
+div h4 .a{
+  
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+footer a:hover{
+    color: red;
+}
+
