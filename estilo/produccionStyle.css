@@ -1,17 +1,20 @@
+/*
 body{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
 h1{
     text-align: center;
-    font-size: 90px;
+    
 }
 
 h2{
     text-align: center;
 }
+
+
 .contenedor {
 	width: 90%;
 	max-width: 1200px;
@@ -20,13 +23,25 @@ h2{
     display: flex;
     gap: 30px;
 
-    /* grid*/
+    /* grid*
     display: grid;
 	grid-template-columns: 3fr 1fr;
 }
+
+.container-footer{
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+
+
 .grid-contenedor {
 
-    /*grid*/ 
+    /*grid*
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -45,6 +60,8 @@ h2{
 	
 }
 
+*/
+
 .video{
     margin: 5%;
     padding: 5%;
@@ -52,6 +69,8 @@ h2{
 	background-position: center center;
     justify-items: center;
 }
+
+/*
 
 div a {
     display: flex;
@@ -62,7 +81,6 @@ div a {
 
 a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
     text-align: center;
     justify-content: center;
 }
@@ -77,20 +95,206 @@ nav a:hover{
     color: rgb(255, 0, 0);  
 }
 
-footer{
-    
-    text-align: center;
-    color: white;
-    background-color: rgb(26, 25, 25);
-}
 
-div{
-    text-decoration: none;
-    color: black;
-}
+
 
 div h4 .a{
     margin: 50px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+footer a:hover{
+    color: red;
+}
+
+
+
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: black;
+    justify-self: center;
+    
+    
+}
+
+footer a{
+    color: aliceblue;
+}
+
+
+.container_footer{
+  
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    color: aliceblue;
+    
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    text-align: left;
+}
+
+.box_footer h3{
+    color: rgb(255, 0, 0);
+    margin-bottom: 30px;
+
+
+}
+
+.redes-links{
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+}
+
+.redes{
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+}
+
+.box_copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+    padding: 0% 40px;
+   
+}
+
+.redes-links{
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+}
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.column img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+    
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+
+}
+
+p{
+    margin: 30px 70px;
+}
+
+
+h1{
+    text-align: center;
+    
+}
+
+h2{
+    
+    margin: 25px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+nav a:hover{
+    color: rgb(255, 0, 0);  
+}
+
+footer{
+    width: 100%;
+    padding: 40px 100px;
+    background: black;
+    justify-self: center;
+    
+}
+
+
+
+
+.container_footer{
+  
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.box_footer{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    text-align: left;
+}
+
+.box_footer h3{
+    color: rgb(255, 0, 0);
+    margin-bottom: 30px;
+
+
+}
+
+.redes{
+    justify-content: space-between;
+    max-width: 100px;
+    margin: auto;
+}
+
+.box_copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 40px;
+   
+}
+
+
+
+div h4 .a{
+  
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
