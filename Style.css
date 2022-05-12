@@ -34,7 +34,7 @@ nav a:hover{
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-image: url("imagenes/fondo1.JPG");
+    background-image: url("imagenes/fondo1.jpg");
     background-attachment: fixed;
     background-position: center;
 }
